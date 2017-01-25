@@ -1,0 +1,6 @@
+framework module Pods_iOS_firebaseMinChat {
+  umbrella header "Pods-iOS_firebaseMinChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

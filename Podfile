@@ -1,4 +1,4 @@
-﻿# Uncomment the next line to define a global platform for your project
+# Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
 target 'iOS_firebaseMinChat' do
@@ -7,7 +7,8 @@ target 'iOS_firebaseMinChat' do
 
   # Pods for iOS_firebaseMinChat
   
-  pod 'Firebase'
+pod 'Firebase'
+pod 'Firebase/Database'
 
   target 'iOS_firebaseMinChatTests' do
     inherit! :search_paths

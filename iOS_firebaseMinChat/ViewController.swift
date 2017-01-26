@@ -10,13 +10,6 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
-struct UITags {
-    fileprivate enum TextFieldTag: Int {
-        case Name = 1
-        case Message
-    }
-}
-
 class ViewController: UIViewController {
 
     fileprivate enum TextFieldTag: Int {

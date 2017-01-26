@@ -11,17 +11,12 @@ import Firebase
 import FirebaseDatabase
 
 class ViewController: UIViewController {
-
-    fileprivate enum TextFieldTag: Int {
-        case Name = 1
-        case Message
-    }
     
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var nameTextFileld: UITextField!
     @IBOutlet weak var messageTextFileld: UITextField!
     
-    var databaseRef = FIRDatabaseReference()
+    fileprivate var databaseRef = FIRDatabaseReference()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +30,7 @@ class ViewController: UIViewController {
     // private
     
     private func initFIRDatabase() {
-        // dbのインスタンス生成
-        databaseRef = FIRDatabase.database().reference()
-        
+        databaseRef = FIRDatabase.database().reference() // dbのインスタンス生成
         // 子要素の追加を監視
         databaseRef.observe(.childAdded, with: { snapshot in
             guard let name = (snapshot.value! as AnyObject).object(forKey: "name") as? String,
@@ -60,5 +53,12 @@ extension ViewController: UITextFieldDelegate {
         textField.resignFirstResponder()
         messageTextFileld.text = ""
         return true
+    }
+}
+
+extension ViewController {
+    fileprivate enum TextFieldTag: Int {
+        case Name = 1
+        case Message
     }
 }

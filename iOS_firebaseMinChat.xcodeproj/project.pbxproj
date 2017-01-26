@@ -11,6 +11,7 @@
 		355C982575B55D89F6A537BA /* Pods_iOS_firebaseMinChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E6A8382EC78981A81C923E /* Pods_iOS_firebaseMinChat.framework */; };
 		89413FDCAA3357D2B9159272 /* Pods_iOS_firebaseMinChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA31231F4C7764485A5527A /* Pods_iOS_firebaseMinChatTests.framework */; };
 		E6512EC31E388B8000758242 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6512EC21E388B8000758242 /* GoogleService-Info.plist */; };
+		E6512EC61E398CBA00758242 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6512EC51E398CBA00758242 /* AdSupport.framework */; };
 		E6A4AC251E387CE100108841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4AC241E387CE100108841 /* AppDelegate.swift */; };
 		E6A4AC271E387CE100108841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A4AC261E387CE100108841 /* ViewController.swift */; };
 		E6A4AC2A1E387CE100108841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A4AC281E387CE100108841 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		4FC4AC53A75E3BF1AD097662 /* Pods-iOS_firebaseMinChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_firebaseMinChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_firebaseMinChat/Pods-iOS_firebaseMinChat.release.xcconfig"; sourceTree = "<group>"; };
 		E6512EC21E388B8000758242 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		E6512EC41E38A61100758242 /* iOS_firebaseMinChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS_firebaseMinChat.entitlements; sourceTree = "<group>"; };
+		E6512EC51E398CBA00758242 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		E6A4AC211E387CE100108841 /* iOS_firebaseMinChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_firebaseMinChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A4AC241E387CE100108841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6A4AC261E387CE100108841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6512EC61E398CBA00758242 /* AdSupport.framework in Frameworks */,
 				355C982575B55D89F6A537BA /* Pods_iOS_firebaseMinChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +111,7 @@
 		97CCEA839F033073C9C3C053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6512EC51E398CBA00758242 /* AdSupport.framework */,
 				F8E6A8382EC78981A81C923E /* Pods_iOS_firebaseMinChat.framework */,
 				3EA31231F4C7764485A5527A /* Pods_iOS_firebaseMinChatTests.framework */,
 				F495935DE6A91115B3154545 /* Pods_iOS_firebaseMinChatUITests.framework */,

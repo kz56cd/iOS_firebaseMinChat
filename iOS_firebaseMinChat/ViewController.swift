@@ -23,11 +23,14 @@ class ViewController: UIViewController {
         
         // dbのインスタンス生成
         databaseRef = FIRDatabase.database().reference()
+        
         // 子要素の追加を監視
-        databaseRef.observeSingleEvent(of: .childAdded, with: { snapshot in
+        databaseRef.observe(.childAdded, with: { snapshot in
             if let name = (snapshot.value! as AnyObject).object(forKey: "name") as? String,
                 let message = (snapshot.value! as AnyObject).object(forKey: "message") as? String {
-                self.textView.text = "\(self.textView.text)\n\(name) : \(message)"
+                if let text = self.textView.text {
+                    self.textView.text = "\(text)\n\(name) : \(message)"
+                }
             }
         })
     }
@@ -41,8 +44,9 @@ extension ViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         let messageData = ["name": nameTextFileld.text!, "message": messageTextFileld.text!]
-        databaseRef.childByAutoId().setValue(messageData)
-        
+        if textField.tag == 2 {
+            databaseRef.childByAutoId().setValue(messageData)
+        }
         textField.resignFirstResponder()
         messageTextFileld.text = ""
         return true

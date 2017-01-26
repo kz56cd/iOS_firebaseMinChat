@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4D06FDA017A9FDF42CE0A9CCE6024246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		53D4700D7E95F791D880760208573F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB4B5EA27F7C0599C4621322C8056F6 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6254513A814B453DEFDF57E5E2AFBC33 /* Pods-iOS_firebaseMinChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9679201A6B757E00D81863A4E9E9BA /* Pods-iOS_firebaseMinChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7322422F8DBDF9463C05E88389C580EA /* Pods-iOS_firebaseMinChatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D30573AA946024D3234EF4B4D0E9FD86 /* Pods-iOS_firebaseMinChatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74A4F20F8C2C872AD275CB2C116F06AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 007DE734DE931D91806D860DAF4DAB39 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		879105AB43EC94B3AB98A17EB4CE8F9E /* Pods-iOS_firebaseMinChatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26319EFCD49AF0735F83BFB735990697 /* Pods-iOS_firebaseMinChatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D42152B2B06C4DC86E95318C47C885BC /* Pods-iOS_firebaseMinChatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B88746A3039F9226515D01AEFABDDAE /* Pods-iOS_firebaseMinChatTests-dummy.m */; };
+		AD9DB2888F267EA380F4C5405A428967 /* Pods-iOS_firebaseMinChatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B88746A3039F9226515D01AEFABDDAE /* Pods-iOS_firebaseMinChatTests-dummy.m */; };
+		C3E84C4428A34083C2CF80860592E5A5 /* Pods-iOS_firebaseMinChatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26319EFCD49AF0735F83BFB735990697 /* Pods-iOS_firebaseMinChatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E68371CA35FB939CF57C1E2A715CE5FA /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBFFD8AAA18C640266A7D1CCBEEBAB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		EF887D6C1ED08E3F0456EF15FD3B0B20 /* Pods-iOS_firebaseMinChatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E473EC0BA07E8E1B687277328273062B /* Pods-iOS_firebaseMinChatUITests-dummy.m */; };
@@ -26,6 +26,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		3B791FB2F86223DADE1D3A721DF4F9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		5EB8A8BF16BDA5DB2CA8A078B67B2B8B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -99,19 +106,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2AAE48ADA67EDFE73233A4C2A63B94F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D4700D7E95F791D880760208573F3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50EB08CC9FD788318401E0195D6DFF09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				74A4F20F8C2C872AD275CB2C116F06AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7497AA3ADA9E5BE43159C1EA1BB3E931 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D06FDA017A9FDF42CE0A9CCE6024246 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +415,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		B052B49BBB4EA5DD1A46B75A85EB7D8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E84C4428A34083C2CF80860592E5A5 /* Pods-iOS_firebaseMinChatTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5227E3F21F208F93AC21B07D48BC650 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,14 +436,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7322422F8DBDF9463C05E88389C580EA /* Pods-iOS_firebaseMinChatUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F47F1131EBC90CC93F53BDED3BC1F539 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				879105AB43EC94B3AB98A17EB4CE8F9E /* Pods-iOS_firebaseMinChatTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,17 +486,18 @@
 			productReference = 54BC3C02A2733EED6441BBC2E16DB63D /* Pods_iOS_firebaseMinChatUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		575E96DF8A73EED4F0C91A7892A69D30 /* Pods-iOS_firebaseMinChatTests */ = {
+		E540843E394A51FBDB2E942C3B76988A /* Pods-iOS_firebaseMinChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C6574160B4779AC6ED65A0B99C7A76B /* Build configuration list for PBXNativeTarget "Pods-iOS_firebaseMinChatTests" */;
+			buildConfigurationList = 637D50C4AF7CD3E2477816EBD556ED4C /* Build configuration list for PBXNativeTarget "Pods-iOS_firebaseMinChatTests" */;
 			buildPhases = (
-				35083329D116AC90BBE4E068D6D0D0D7 /* Sources */,
-				7497AA3ADA9E5BE43159C1EA1BB3E931 /* Frameworks */,
-				F47F1131EBC90CC93F53BDED3BC1F539 /* Headers */,
+				BECF92A3E2FBE8D40C14E02993DA090E /* Sources */,
+				2AAE48ADA67EDFE73233A4C2A63B94F4 /* Frameworks */,
+				B052B49BBB4EA5DD1A46B75A85EB7D8A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0E6ACD3A3099B800E67891CD81AC0608 /* PBXTargetDependency */,
 			);
 			name = "Pods-iOS_firebaseMinChatTests";
 			productName = "Pods-iOS_firebaseMinChatTests";
@@ -537,21 +545,13 @@
 			targets = (
 				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
 				FC5EF87E47E1F3675ACCE7E56218B3E8 /* Pods-iOS_firebaseMinChat */,
-				575E96DF8A73EED4F0C91A7892A69D30 /* Pods-iOS_firebaseMinChatTests */,
+				E540843E394A51FBDB2E942C3B76988A /* Pods-iOS_firebaseMinChatTests */,
 				2B4D5E75BE7191C333740E7BDBC547E7 /* Pods-iOS_firebaseMinChatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35083329D116AC90BBE4E068D6D0D0D7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D42152B2B06C4DC86E95318C47C885BC /* Pods-iOS_firebaseMinChatTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3DB2D33C3044265960AF5BED01223519 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -577,9 +577,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BECF92A3E2FBE8D40C14E02993DA090E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9DB2888F267EA380F4C5405A428967 /* Pods-iOS_firebaseMinChatTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0E6ACD3A3099B800E67891CD81AC0608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 5EB8A8BF16BDA5DB2CA8A078B67B2B8B /* PBXContainerItemProxy */;
+		};
 		CAE2BAF1C566CBAF98205AD9FD905272 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleToolboxForMac;
@@ -589,6 +603,76 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0889A471A74D3BA3936560EC7EE6BE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA27CC947267BB7E6C50C0A45342E823 /* Pods-iOS_firebaseMinChatTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Pods-iOS_firebaseMinChatTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_firebaseMinChatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B82C4E2CB26E98CF134DA00AD9BB19A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306BD571436D52FFF57EEE1961E8020D /* Pods-iOS_firebaseMinChatTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Pods-iOS_firebaseMinChatTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iOS_firebaseMinChatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		2B96264E0189BB2767554C9EF85683C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73AFA568777350A7C8C1862A48A6AE0B /* Pods-iOS_firebaseMinChat.release.xcconfig */;
@@ -623,41 +707,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		34B063B79BF4033594C206CF648BBFB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA27CC947267BB7E6C50C0A45342E823 /* Pods-iOS_firebaseMinChatTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Pods-iOS_firebaseMinChatTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_iOS_firebaseMinChatTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		64074153ABFC1C9E3EB31F77D54069AB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -912,41 +961,6 @@
 			};
 			name = Release;
 		};
-		F5BCF0811389D419A4642C04B78E4426 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 306BD571436D52FFF57EEE1961E8020D /* Pods-iOS_firebaseMinChatTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS_firebaseMinChatTests/Pods-iOS_firebaseMinChatTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_iOS_firebaseMinChatTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -959,11 +973,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C6574160B4779AC6ED65A0B99C7A76B /* Build configuration list for PBXNativeTarget "Pods-iOS_firebaseMinChatTests" */ = {
+		637D50C4AF7CD3E2477816EBD556ED4C /* Build configuration list for PBXNativeTarget "Pods-iOS_firebaseMinChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34B063B79BF4033594C206CF648BBFB8 /* Debug */,
-				F5BCF0811389D419A4642C04B78E4426 /* Release */,
+				0889A471A74D3BA3936560EC7EE6BE75 /* Debug */,
+				2B82C4E2CB26E98CF134DA00AD9BB19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

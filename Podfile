@@ -13,6 +13,9 @@ pod 'Firebase/Database'
   target 'iOS_firebaseMinChatTests' do
     inherit! :search_paths
     # Pods for testing
+
+pod 'Firebase'
+
   end
 
   target 'iOS_firebaseMinChatUITests' do
